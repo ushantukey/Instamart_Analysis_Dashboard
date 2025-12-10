@@ -1,84 +1,107 @@
-🛒 Instamart Data Analysis Dashboard
-📌 Project Overview
+# 🛒 Instamart Data Analysis Dashboard
 
-This project presents a comprehensive Power BI dashboard for analyzing Instamart’s sales performance, customer behavior, product trends, and operational metrics.
-The analysis was performed using MySQL (SQL queries), Python (data cleaning & preprocessing), and Power BI (dashboard development).
+## 📌 Project Overview
 
-The dashboard provides meaningful insights using KPIs, charts, and interactive filters to help understand business performance and identify opportunities for optimization.
+This project presents a comprehensive **Power BI dashboard** built to analyze **Instamart’s sales performance, customer behavior, product trends, and operational metrics**.
 
-🛠 Tech Used
+The analysis was performed using:
 
-🗃️ MySQL Workbench – Data storage, SQL queries, aggregations
+- **MySQL** for data extraction, SQL querying, and aggregations  
+- **Python** for data cleaning, preprocessing, and EDA  
+- **Power BI** for dashboard creation and visual analytics  
 
-🐍 Python (Pandas, NumPy, Matplotlib) – Data cleaning, transformation, EDA
+The dashboard provides meaningful insights using KPIs, charts, and interactive filters to understand business performance and identify optimization opportunities.
 
-📊 Power BI – Visualization, dashboard creation, KPI cards, filters
+---
 
-⚙️ Power Query – Data shaping and modeling inside Power BI
+## 🛠 Tech Used
 
-🧮 DAX – Custom measures like Total Revenue, AOV, Returning Customers
+### 🗃️ MySQL Workbench  
+- Data storage  
+- SQL joins, aggregations, filtering  
+- Data extraction for analysis  
 
-📊 Key Performance Indicators (KPIs)
+### 🐍 Python (Pandas, NumPy, Matplotlib)  
+- Data cleaning & transformation  
+- Missing value handling  
+- Exploratory Data Analysis (EDA)  
+- Feature creation  
+- Exporting processed data for Power BI  
 
-The dashboard focuses on the following primary KPIs:
+### 📊 Power BI  
+- KPI cards  
+- Advanced charts & visuals  
+- Interactive filters & slicers  
+- Data modeling  
 
-Total Sales – Total revenue generated
+### ⚙️ Power Query  
+- Data shaping & transformation  
+- Schema adjustments  
+- Automated refresh steps  
 
-Total Orders – Total number of transactions
+### 🧮 DAX  
+- Custom measures such as:  
+  - Total Sales  
+  - Average Sales
+  - No of items 
+  - Metrics
+  - Average Rating  
 
-Total Customers – Unique customer count
+---
 
-Average Order Value (AOV) – Avg revenue per order
+## 📊 Key Performance Indicators (KPIs)
 
-Average Delivery Time – Avg time taken to deliver orders
+The dashboard highlights the following essential KPIs:
 
-Average Rating – Avg customer feedback score
+- **Total Sales**- The overall revenue generated from all items sold. 
+- **Average Sales**: The average revenue per sale. 
+- **Number of Items**: The total count of different items sold. 
+- **Average Rating**: The average customer rating for items sold. 
+  
+---
 
-(You can insert actual numbers based on your dataset.)
+## ⭐ Features
 
-⭐ Features
+### 🔍 Filter Panel
+- Filter by outlet location type
+- Filter by outlet size  
+- Filter by outlet type  
 
-Filter Panel
-Filter by outlet location, product category, date range, and customer type.
 
-Sales Trend Analysis
-Visualizes monthly/weekly sales growth patterns.
+---
 
-Category Performance
-Highlights revenue contribution of categories like Snacks, Beverages, Dairy, Essentials, etc.
+## 🐍 + 🗃 Python & SQL Data Processing
 
-Top-Selling Product Analysis
-Identifies high-demand and high-revenue items.
+### ✔ SQL Tasks
+- Data extraction from MySQL tables  
+- Joining multiple datasets  
+- Aggregations (SUM, COUNT, AVG, etc.)  
+- Removing duplicates & inconsistencies  
 
-Customer Segmentation
-Shows new vs returning customers, order frequency, and spending behavior.
+### ✔ Python Tasks
+- Handling missing values  
+- Processing timestamps & durations  
+- Creating new calculated columns  
+- Exporting cleaned CSV files for Power BI  
 
-Delivery Performance Metrics
-Analyzes on-time delivery rate, delays, and average delivery duration.
+---
 
-Regional Sales Analysis
-Compares sales and order volume across different city zones/locations.
+## 📈 Insights and Conclusions
 
-Python + SQL Data Processing
+- Strong overall sales performance with upward trends  
+- Essential and fast-moving products drive major revenue  
+- Returning customers contribute significantly to total revenue  
+- Faster deliveries result in better customer ratings  
+- Medium and large outlet locations produce higher sales    
 
-SQL used for: data extraction, joins, aggregations, cleansing
+---
 
-Python used for: missing value handling, feature creation, exporting refined datasets
+## Screenshot
 
-📈 Insights and Conclusions
+### 📊 Dashboard Previews
 
-Strong overall sales performance with consistent upward trends
+![Instamart Dashboard](Instamart_Analysis_Dashboard.png)
+## 📝 NOTE
 
-Customer preference for essential and fast-moving product categories
+This analysis was created as part of a **data analytics project** and is intended for **learning and portfolio purposes only**.
 
-Returning customers form a major part of total revenue
-
-Fast delivery improves customer ratings significantly
-
-Medium and large outlet locations contribute the highest revenue
-
-Weekends show peak sales and order activity
-
-📝 NOTE
-
-This analysis was conducted as part of a data analytics project and is intended for learning and portfolio purposes only.
